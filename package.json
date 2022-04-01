@@ -1,0 +1,33 @@
+{
+  "name": "@stdlib/regexp-whitespace",
+  "version": "0.0.0",
+  "description": "Return a regular expression to match a white space character.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/regexp-whitespace.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "regex",
+    "regexp",
+    "re",
+    "space",
+    "whitespace",
+    "split",
+    "unicode",
+    "regular",
+    "expression",
+    "capture",
+    "match"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
