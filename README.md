@@ -18,26 +18,36 @@ limitations under the License.
 
 -->
 
-# White Space
+# reWhitespace
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > [Regular expression][regexp] to match a [white space][whitespace] character.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/regexp-whitespace
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import reWhitespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-whitespace@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { REGEXP, REGEXP_CAPTURE } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-whitespace@deno/mod.js';
+var reWhitespace = require( '@stdlib/regexp-whitespace' );
 ```
 
 #### reWhitespace( \[options] )
@@ -102,7 +112,7 @@ bool = reWhitespace.REGEXP.test( '\\n' );
 [Regular expression][regexp] to capture characters matching a [white space][whitespace] character. 
 
 ```javascript
-import replace from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-replace@deno/mod.js';
+var replace = require( '@stdlib/string-replace' );
 
 var str = 'Duplicate capture';
 var out = replace( str, reWhitespace.REGEXP_CAPTURE, '$1$1' );
@@ -144,7 +154,7 @@ var out = replace( str, reWhitespace.REGEXP_CAPTURE, '$1$1' );
 <!-- eslint no-undef: "error",  stdlib/doctest: "off" -->
 
 ```javascript
-import reWhitespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-whitespace@deno/mod.js';
+var reWhitespace = require( '@stdlib/regexp-whitespace' );
 
 var RE_WHITESPACE = reWhitespace();
 
@@ -196,7 +206,7 @@ var arr = str.split( RE_WHITESPACE );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -264,7 +274,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-whitespace]: https://github.com/stdlib-js/assert-is-whitespace/tree/deno
+[@stdlib/assert/is-whitespace]: https://github.com/stdlib-js/assert-is-whitespace
 
 <!-- </related-links> -->
 
