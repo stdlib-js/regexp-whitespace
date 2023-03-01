@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/whitespace"
-click B href "https://github.com/stdlib-js/regexp-whitespace/tree/main"
-click C href "https://github.com/stdlib-js/regexp-whitespace/tree/production"
-click D href "https://github.com/stdlib-js/regexp-whitespace/tree/esm"
-click E href "https://github.com/stdlib-js/regexp-whitespace/tree/deno"
-click F href "https://github.com/stdlib-js/regexp-whitespace/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/whitespace"
+%% click B href "https://github.com/stdlib-js/regexp-whitespace/tree/main"
+%% click C href "https://github.com/stdlib-js/regexp-whitespace/tree/production"
+%% click D href "https://github.com/stdlib-js/regexp-whitespace/tree/esm"
+%% click E href "https://github.com/stdlib-js/regexp-whitespace/tree/deno"
+%% click F href "https://github.com/stdlib-js/regexp-whitespace/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/whitespace
