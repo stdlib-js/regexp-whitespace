@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import reWhitespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-whitespace@deno/mod.js';
+import reWhitespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-whitespace@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP, REGEXP_CAPTURE } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-whitespace@deno/mod.js';
+import { REGEXP, REGEXP_CAPTURE } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-whitespace@v0.2.1-deno/mod.js';
 ```
 
 #### reWhitespace( \[options] )
@@ -155,7 +155,7 @@ var out = replace( str, reWhitespace.REGEXP_CAPTURE, '$1$1' );
 <!-- eslint no-undef: "error",  stdlib/doctest: "off" -->
 
 ```javascript
-import reWhitespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-whitespace@deno/mod.js';
+import reWhitespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-whitespace@v0.2.1-deno/mod.js';
 
 var RE_WHITESPACE = reWhitespace();
 
