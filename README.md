@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import reWhitespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-whitespace@esm/index.mjs';
+import reWhitespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-whitespace@v0.2.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP, REGEXP_CAPTURE } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-whitespace@esm/index.mjs';
+import { REGEXP, REGEXP_CAPTURE } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-whitespace@v0.2.2-esm/index.mjs';
 ```
 
 #### reWhitespace( \[options] )
@@ -160,7 +160,7 @@ var out = replace( str, reWhitespace.REGEXP_CAPTURE, '$1$1' );
 <body>
 <script type="module">
 
-import reWhitespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-whitespace@esm/index.mjs';
+import reWhitespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-whitespace@v0.2.2-esm/index.mjs';
 
 var RE_WHITESPACE = reWhitespace();
 
